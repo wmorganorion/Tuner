@@ -9,7 +9,8 @@ To develop a framework for fast tracking model development with hyper-parameter 
 **Configuration file**.
 At root, one will find the Tuner configuration file. This is where one should start prior to anything else because this is where you will be configuring your entire training/model evaluation process.
 Within this file one can control the following attributes of how the framework will operate:
-1.	Turn printing & display of images/graphs to screen
+
+1.	Turn On/Off printing & display of images/graphs to screen
 2.	Turn each section of the Tuner On/Off based on configuration need
 a.	Data Load
 b.	Preprocessing Data
@@ -38,3 +39,10 @@ The file ‘feature_importance.py’, supports those models with these attribute
 
 **Model Selection**.
 The file ‘predict_pl.py’, is where our training/predictions take place. Here you will find the learner [the learning algorithm to be trained and predicted on], the sample size [user defined size of the samples to be drawn from training set] and your features and other training/testing sets.
+
+
+
+
+
+
+
