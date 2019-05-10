@@ -12,12 +12,12 @@ Within this file one can control the following attributes of how the framework w
 
 1.	Turn On/Off printing & display of images/graphs to screen
 2.	Turn each section of the Tuner On/Off based on configuration need
-a.	Data Load
-b.	Preprocessing Data
-c.	Training, Validation, Testing datasets
-d.	Naïve Predictor
-e.	Grid Search
-f.	Feature Importance
+  a.	Data Load
+  b.	Preprocessing Data
+  c.	Training, Validation, Testing datasets
+  d.	Naïve Predictor
+  e.	Grid Search
+  f.	Feature Importance
 
 **Data Preprocessing**.
 In this module we load our data into a pandas data frame. The source data can come from a CSV file, remote URL, SQL Query from any RDBMS. A template of code bits is provided in order to point the user in the right direction for data sourcing.
