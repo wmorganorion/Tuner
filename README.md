@@ -19,6 +19,10 @@ Within this file one can control the following attributes of how the framework w
     **e**.	Grid Search
     **f**.	Feature Importance
 
+
+![Configuration File](https://user-images.githubusercontent.com/49068339/57534354-d8c3f200-730d-11e9-8899-634ca78670b5.PNG)
+    
+
 **Data Preprocessing**.
 In this module we load our data into a pandas data frame. The source data can come from a CSV file, remote URL, SQL Query from any RDBMS. A template of code bits is provided in order to point the user in the right direction for data sourcing.
 
